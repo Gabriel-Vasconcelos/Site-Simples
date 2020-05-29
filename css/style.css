@@ -1,0 +1,204 @@
+/*Resetar*/
+*{
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	box-sizing: border-box;
+	border:none; 
+	outline: none;
+}
+img{
+	max-width: 100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+h2{
+	font-size: 1.5em; 
+	color: #333;
+}
+p{
+	font-size: 1em;
+	color: #777
+}
+/*Cabeçalho*/
+
+.cabecalho{
+	width: 100%;
+	float: left;
+	padding: 50px 8%; 
+	background-color: #ffee00;
+}
+
+.cabecalho h1 a img{
+	width: 221;
+	height: 48;
+	font-size: 0px;
+	float: left;
+}
+.cabecalho form{
+	width: 30%;
+	float: right;
+
+}
+.cabecalho form input{
+	width: 85%;
+	height: 52px;
+	padding: 15px 10px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin: 0px;
+	float: left;
+}
+.cabecalho form button{
+	width: 15%;
+	height: 52px;
+	float: right;
+	background-color: #e4d506;
+	color: #ffffff;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	cursor: pointer;
+}
+
+/*Menu*/
+.menu{
+	width: 100%;
+	background-color: #111;
+	float: left;
+	padding: 20px 8%;
+
+}
+.menu ul li{
+	display: inline-block;
+	float: left;
+}
+.menu ul li a{
+	color: #9d9d9d;
+	margin-right: 25px;
+	font-size: 18px;
+}
+.menu ul li a:hover{
+	color: #fff;
+	padding-bottom: 16px;
+	border-bottom: 3px dotted #fff;
+}
+
+/*Redes Sociais*/
+.redes-sociais{
+	float: right;
+}
+.redes-sociais a{
+	color: #fff;
+	float: left;
+	padding-left: 15px; 
+}
+.link-facebook:hover{
+	color: #3B5998;
+}
+.link-twitter:hover{
+	color: #54A4D6;
+}
+.link-google:hover{
+	color: #D73D32;
+}
+
+/*Principal*/
+.principal{
+	width: 100%;
+	padding: 20px 8%;
+	float: left;
+}
+.sobre{
+	width: 70%;
+	float: left;
+	padding: 0px 20px 20px 0px;
+}
+.sobre h2{
+	margin-bottom: 20px;
+}
+.sobre img{
+	float: left;
+	width: 50%;
+	border-radius: 5px;
+	margin: 0 15px 15px 0;
+}
+.sobre p{
+	text-align: justify;
+}
+
+/*Aside*/
+.onde-estamos{
+	width: 30%;
+	float: right;
+	padding: 10px 20px;	
+	background-color: #f5f5f5;
+	border-radius: 5px;
+
+}
+.onde-estamos h2{
+	margin-bottom: 5px;
+}
+.maps{
+	width: 100%;
+	height: 250px;
+	float: right;
+	margin: 20px 0;
+}
+.onde-estamos li{
+	color: #777;
+	margin-top: 10px;
+}
+.onde-estamos i{
+	margin-right:5px; 
+}
+.newsletter{
+	width: 100%;
+	background-color: #111;
+	float: left;
+	padding: 50px 7%;
+
+}
+.newsletter h3{
+	font-size: 30px;
+	color: #ffffff;
+}
+.newsletter p{
+	color: #fff;
+	font-size: 20px;
+	padding-bottom: 10px; 
+}
+.newsletter input{
+	width: 40%;
+	height: 55px;
+	border-radius: 5px;
+	background-color: #111;
+	border:1px solid #fff;
+	padding-left: 10px;
+	margin-right: 1%; 
+	color: #fff;
+	float: left;
+}
+.newsletter button{
+	width: 17%;
+	height: 55px;
+	border-radius:5px;
+	background-color: #fff;
+	cursor: pointer;
+	 
+}
+/*Rodapé*/
+.rodape {
+	width: 100%;
+	float: left;
+	background-color: #ffee00;
+}
+.rodape p{
+	padding: 10px 8%;
+	color: #111;
+}
